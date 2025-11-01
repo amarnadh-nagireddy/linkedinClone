@@ -31,7 +31,21 @@ The backend runs by default on http://localhost:8000
 ------------------------------------------
 Folder Structure
 ------------------------------------------
-<pre> ``` backend/ │ ├── config/ -> Database configuration ├── controllers/ -> Route logic ├── models/ -> Mongoose schemas ├── routes/ -> Express routes ├── middleware/ -> Auth middlewares ├── server.js └── .env ``` </pre>
+
+backend/
+-config/        -> Database and cloudinary configuration
+
+-controllers/   -> Route logic
+
+-models/        -> Mongoose schemas
+ 
+-routes/        -> Express routes
+ 
+-middleware/    -> Auth middlewares
+ 
+-server.js
+.env
+
 
 ------------------------------------------
 API Overview
