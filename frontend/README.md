@@ -27,24 +27,7 @@ npm run dev
 
 The frontend runs by default on http://localhost:5173
 
-------------------------------------------
-Folder Structure
-------------------------------------------
 
-frontend/
-│
-├── src/
-│   ├── components/    -> Navbar, PostCard, etc.
-│   ├── pages/         -> Login, Signup, Home
-│   ├── context/       -> Auth context
-│   ├── hooks/         -> Custom React hooks
-│   └── App.jsx
-│
-├── index.html
-├── package.json
-└── vite.config.js
-
-------------------------------------------
 Tech Stack
 ------------------------------------------
 
