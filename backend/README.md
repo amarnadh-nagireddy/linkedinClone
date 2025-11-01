@@ -52,8 +52,11 @@ API Overview
 ------------------------------------------
 
 POST /user/signup      -> Register new user
+
 POST /user/login       -> Login and receive token
+
 GET  /post/            -> Fetch all posts
+
 POST /post/            -> Create new post
 
 ------------------------------------------
