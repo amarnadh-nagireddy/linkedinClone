@@ -9,12 +9,19 @@ Project Structure
 ------------------------------------------
 
 linkedin-clone/
+
 │
+
 ├── backend/        -> Express + MongoDB server
+
 ├── frontend/       -> React + Vite + Tailwind client
+
 ├── .gitignore
+
 ├── package.json
+
 └── README.md
+
 
 ------------------------------------------
 Setup Instructions
