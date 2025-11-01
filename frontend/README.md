@@ -12,12 +12,39 @@ cd frontend
 npm install
 
 ------------------------------------------
+Folder structure
+------------------------------------------
+
+frontend/
+│
+
+├── src/
+
+│   ├── components/    -> Navbar, PostCard, etc.
+
+│   ├── pages/         -> Login, Signup, Home
+
+│   ├── context/       -> Auth context
+
+
+│   └── App.jsx
+
+│
+├── index.html
+
+├── package.json
+
+└── vite.config.js
+
+
+------------------------------------------
 Environment Variables
 ------------------------------------------
 
 Create a .env file in this folder:
 
 VITE_API_BASE_URL=http://localhost:8000
+
 
 ------------------------------------------
 Running the App
